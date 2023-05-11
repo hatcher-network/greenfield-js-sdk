@@ -1,4 +1,6 @@
 import { Bucket } from '@/components/bucket';
+import { Group } from '@/components/group';
+import { Policy } from '@/components/policy';
 import { Deposit } from '@/components/deposit';
 import { ObjectComponent } from '@/components/object';
 import { Transfer } from '@/components/transfer';
@@ -30,6 +32,10 @@ export default function Wallet() {
           <Bucket />
           <hr style={{ margin: '10px 0' }} />
           <ObjectComponent />
+          <hr style={{ margin: '10px 0' }} />
+          <Group />
+          <hr style={{ margin: '10px 0' }} />
+          <Policy />
         </>
       )}
     </div>
